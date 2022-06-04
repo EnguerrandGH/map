@@ -1,0 +1,41 @@
+html, body {
+    background-color: #111;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 100%;
+	width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    margin-left: 2% ;
+    margin-top: 0.4%;
+    width: 75%;
+}
+
+path:hover {
+    fill: rgb(31, 79, 15);
+    cursor: pointer;
+}
+
+#informations {
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    top:0px;
+    right: 0px;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(14, 14, 14);
+    color: white;
+}
+
+#informations p {
+    margin: 50px;
+}
